@@ -1,20 +1,28 @@
 {
-  "name": "eat-the-burger",
+  "name": "burger",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a burger logger created with MySQL, Node, Express, Handlebars and a homemade ORM.",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.17.2",
-    "express": "^4.15.3",
     "express-handlebars": "^3.0.0",
+    "express": "^4.15.3",
     "method-override": "^2.3.9",
-    "mysql": "^2.14.0"
+    "mysql": "^2.14.1"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssbanks/burger.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssbanks/burger/issues"
+  },
+  "homepage": "https://github.com/ssbanks/burger#readme"
 }
